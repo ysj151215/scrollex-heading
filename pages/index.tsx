@@ -1,3 +1,6 @@
+import React from 'react'
+React.useLayoutEffect = React.useEffect
+
 import Head from 'next/head'
 import { Scroll } from 'scrollex'
 
