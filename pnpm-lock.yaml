@@ -7,7 +7,7 @@ specifiers:
   autoprefixer: ^10.4.13
   eslint: 8.31.0
   eslint-config-next: 13.1.1
-  framer-motion: ^8.0.2
+  framer-motion: ^8.1.7
   next: 13.1.1
   postcss: ^8.4.20
   prettier: ^2.8.1
@@ -24,11 +24,11 @@ dependencies:
   '@types/react-dom': 18.0.10
   eslint: 8.31.0
   eslint-config-next: 13.1.1_iukboom6ndih5an6iafl45j2fe
-  framer-motion: 8.0.2_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 8.1.7_biqbaboplfbrettd7655fr4n2y
   next: 13.1.1_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  scrollex: 2.0.1_nrmz32oj7m6p3nwtxl5texojsa
+  scrollex: 2.0.1_jo5ucw76yxnyurgob34mwxwahe
   typescript: 4.9.4
 
 devDependencies:
@@ -1195,8 +1195,8 @@ packages:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: true
 
-  /framer-motion/8.0.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-xuIiQchVh/cLqUzzu5/8ok4o0nkwYPyIRtkDl8wDvrQUNRhSfRaZu1MMdzN0TjpBtG66oP03PSLO7Qtu1YqPrA==}
+  /framer-motion/8.1.7_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-9ODjhOG1/XEDckJlva+5Ya2dvpBsz1ieX9DhAVGp1/IyrLuO3LSUIhj0vMX3Hr3Ujju0ebsMqFoedy84cz+9LQ==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -1205,7 +1205,7 @@ packages:
       hey-listen: 1.0.8
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      tslib: 2.4.0
+      tslib: 2.4.1
     optionalDependencies:
       '@emotion/is-prop-valid': 0.8.8
     dev: false
@@ -2114,14 +2114,14 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /scrollex/2.0.1_nrmz32oj7m6p3nwtxl5texojsa:
+  /scrollex/2.0.1_jo5ucw76yxnyurgob34mwxwahe:
     resolution: {integrity: sha512-Ao1q6vRql/I8vIvEeRz68OxC0HS6F4EQ6UylIIgtvRvuFt1qUC6rmqhivhkH+b3NEaclYGwsGN0Z12WOZEAKlw==}
     peerDependencies:
       framer-motion: '>=7.0.0'
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
     dependencies:
-      framer-motion: 8.0.2_biqbaboplfbrettd7655fr4n2y
+      framer-motion: 8.1.7_biqbaboplfbrettd7655fr4n2y
       lodash.throttle: 4.1.1
       popmotion: 11.0.3
       react: 18.2.0
@@ -2331,10 +2331,6 @@ packages:
 
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
-    dev: false
-
-  /tslib/2.4.0:
-    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: false
 
   /tslib/2.4.1:
