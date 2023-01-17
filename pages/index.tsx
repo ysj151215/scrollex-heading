@@ -4,8 +4,9 @@ React.useLayoutEffect = React.useEffect
 import Head from 'next/head'
 import { Scroll } from 'scrollex'
 
-import SectionPlaceholder from '../components/section/SectionPlaceholder'
+import SectionStart from '../components/section/SectionStart'
 import SectionHeading from '../components/section/SectionHeading'
+import SectionEnd from '../components/section/SectionEnd'
 
 const Home = () => {
   return (
@@ -22,9 +23,9 @@ const Home = () => {
 
       <main className="relative h-full w-full">
         <Scroll.Container scrollAxis="y" className="relative h-full">
-          <SectionPlaceholder title="Keep scrolling" />
+          <SectionStart />
           <SectionHeading />
-          <SectionPlaceholder title="The end" />
+          <SectionEnd />
         </Scroll.Container>
       </main>
     </>
