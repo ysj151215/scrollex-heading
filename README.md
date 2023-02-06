@@ -1,7 +1,5 @@
 # Scrollex heading
 
-Build a full screen heading that supports horizontal scrolling with Next.js, Tailwind CSS and Scrollex.
-
 ![Screenshot](./doc/screenshot.png)
 
 ## Features

@@ -4,9 +4,9 @@ React.useLayoutEffect = React.useEffect
 import Head from 'next/head'
 import { Scroll } from 'scrollex'
 
-import SectionStart from '../components/section/SectionStart'
-import SectionHeading from '../components/section/SectionHeading'
 import SectionEnd from '../components/section/SectionEnd'
+import SectionHeading from '../components/section/SectionHeading'
+import SectionStart from '../components/section/SectionStart'
 
 const Home = () => {
   return (
